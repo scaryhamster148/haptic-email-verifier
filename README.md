@@ -1,69 +1,53 @@
-# Welcome to your Lovable project
+
+# 이메일 인증 완료 페이지
+
+이 프로젝트는 이메일 인증이 완료되었을 때 보여주는 웹페이지입니다.
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/80202da6-79f9-4962-9060-4f05b772441d
 
-## How can I edit this code?
+## GitHub Pages 배포 방법
 
-There are several ways of editing your application.
+이 프로젝트를 GitHub Pages에 배포하려면 다음 단계를 따르세요:
 
-**Use Lovable**
+1. GitHub 저장소 생성
+2. 프로젝트 파일을 저장소에 업로드
+3. 저장소 설정에서 GitHub Pages 활성화:
+   - Settings > Pages > Source에서 "main" 브랜치 선택
+   - 저장
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/80202da6-79f9-4962-9060-4f05b772441d) and start prompting.
+## 로컬 개발 환경 설정
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+로컬에서 개발하기 위해:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# 1. 저장소 클론
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. 프로젝트 폴더로 이동
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# 3. 의존성 설치
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. 개발 서버 실행
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 빌드 방법
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+# 프로젝트 빌드
+npm run build
 
-**Use GitHub Codespaces**
+# 빌드된 파일은 dist 폴더에 생성됩니다
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
+## 기술 스택
 
 - Vite
 - TypeScript
 - React
-- shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/80202da6-79f9-4962-9060-4f05b772441d) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- Framer Motion
